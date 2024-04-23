@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        startActivity(Intent(this, InputActivity::class.java))
+        finish()
+
         tvTitle = findViewById(R.id.tvTitle)
         tvDescription = findViewById(R.id.tvDescription)
         btnPrev = findViewById(R.id.btnPrev)

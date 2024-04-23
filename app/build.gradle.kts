@@ -63,4 +63,6 @@ dependencies {
     implementation (libs.kotlinx.coroutines.core.v164)
     implementation (libs.kotlinx.coroutines.android.v164)
     androidTestImplementation (libs.turbine)
+
+    implementation("com.google.code.gson:gson:2.10.1")
 }
